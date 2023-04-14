@@ -1,3 +1,7 @@
-body {
-    background-color: aqua;
+
+#header-img {
+    background-image: url(/assets/images/colorportrait.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
