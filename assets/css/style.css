@@ -1,13 +1,6 @@
 
-#header-img {
-    background-image: url(/assets/images/colorportrait.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.container {
-    padding: 5px;
-}
-.mb-3 {
-    padding: 0px;
+#jumbotron {
+    width: 100%;
+    height: 200px;
+    background-color:aqua;
 }
