@@ -4,7 +4,27 @@
     padding: 10px;
     text-align: center;
 }
+
 #hero-content{
     max-width: 500px;
     margin: auto;
+}
+
+#info-section {
+    margin: auto;
+    max-width: 900px;
+}
+
+section {
+    padding: 5px;
+}
+
+.portfolio {
+    max-width: 900px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-left: 10px;
 }
