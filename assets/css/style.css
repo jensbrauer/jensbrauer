@@ -2,16 +2,20 @@ body {
     background-color: #343a40;
 }
 
-
 #hero-background {
     width: 100%;
     padding: 10px;
     text-align: center;
 }
 
+h1 {
+    text-align: left;
+}
+
 #hero-content{
     max-width: 500px;
     margin: auto;
+
 }
 
 #info-section {
@@ -30,5 +34,29 @@ section {
 }
 
 h2 {
-    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.card-img-top {
+    filter: grayscale(70%);
+}
+.card-img-top:hover{
+    filter: grayscale(0%);
+}
+
+a {
+    text-decoration: none;
+    color: #f8f9fa;
+}
+
+.card-link {
+
+    text-decoration: none;
+    background-color: #17a2b8;
+    padding: 0 5px 0 5px;
+    transition: 0.2s;
+}
+.card-link:hover {
+    text-decoration: none;
+    background-color: #007bff;
 }
