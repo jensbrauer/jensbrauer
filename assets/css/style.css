@@ -1,21 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&family=Roboto&display=swap');
+
 body {
-    background-color: #343a40;
+    font-family: Roboto, sans-serif;
 }
 
 #hero-background {
     width: 100%;
     padding: 10px;
-    text-align: center;
 }
 
 h1 {
+    font-size: 4rem;
     text-align: left;
+    font-family: Archivo, sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: Archivo, sans-serif;
+}
+
+h5 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
 }
 
 #hero-content{
     max-width: 500px;
-    margin: auto;
-
 }
 
 #info-section {
@@ -28,35 +40,46 @@ section {
 }
 
 .content-holder {
-    max-width: 900px;
+    max-width: 1000px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-h2 {
-    margin-bottom: 10px;
+.card {
+    filter: grayscale(30%);
 }
-
-.card-img-top {
-    filter: grayscale(70%);
-}
-.card-img-top:hover{
+.card:hover{
     filter: grayscale(0%);
 }
 
 a {
-    text-decoration: none;
     color: #f8f9fa;
 }
 
 .card-link {
-
-    text-decoration: none;
-    background-color: #17a2b8;
-    padding: 0 5px 0 5px;
-    transition: 0.2s;
+    color: black;
+    background-color: #f8f9fa;
+    padding:5px;
+    transition: 0.1s;
+    margin: 0 0 10px
 }
 .card-link:hover {
-    text-decoration: none;
-    background-color: #007bff;
+    background-color: black;
+    color: #f8f9fa;
+}
+.col {
+    padding: 0 6px;
+}
+.card-body {
+    padding: 10px;
+}
+
+.card {
+    border: 0px;
+    border-radius: 0;
+}
+
+.card-img-top {
+    border-radius: 0px;
+    padding: 2px;
 }
