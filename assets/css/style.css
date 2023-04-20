@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo:wght@300&family=Roboto&display=swap');
 
 body {
     font-family: Roboto, sans-serif;
@@ -6,19 +6,18 @@ body {
 
 #hero-background {
     width: 100%;
-    padding: 10px;
 }
 
 h1 {
     font-size: 4rem;
     text-align: left;
-    font-family: Archivo, sans-serif;
+    font-family: "Abril Fatface", Archivo, sans-serif;
 }
 
 h2 {
     font-size: 2rem;
     margin-bottom: 10px;
-    font-family: Archivo, sans-serif;
+    font-family: "Abril Fatface", Archivo, sans-serif;
 }
 
 h5 {
@@ -41,30 +40,26 @@ section {
 
 .content-holder {
     max-width: 1000px;
+    margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.card {
-    filter: grayscale(30%);
-}
-.card:hover{
-    filter: grayscale(0%);
-}
+
 
 a {
+    text-decoration: none;
     color: #f8f9fa;
 }
 
 .card-link {
     color: black;
-    background-color: #f8f9fa;
-    padding:5px;
+    padding: 5px 10px 3px 10px;
     transition: 0.1s;
     margin: 0 0 10px
 }
 .card-link:hover {
-    background-color: black;
+    background-color: #212529;
     color: #f8f9fa;
 }
 .col {
@@ -81,5 +76,24 @@ a {
 
 .card-img-top {
     border-radius: 0px;
-    padding: 2px;
+    padding-bottom: 10px;
+}
+
+.project-card {
+    background-color: #BCCCBA;
+}
+
+i {
+    color: white;
+}
+
+.carousel-indicators {
+    text-align: right;
+    float: right;
+    right: 2% !important;
+    left: inherit;
+}
+
+.d-block {
+    margin: auto;
 }
