@@ -2,6 +2,18 @@
 
 body {
     font-family: Roboto, sans-serif;
+    background-color: #212529;
+}
+.page-content {
+    position: fixed;
+    top: 40px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow-y:scroll;
+    background-color: #f8f9fa;
+    border-bottom: 3px solid #212529;
+    border-left: 3px solid #212529;
 }
 
 #hero-background {
@@ -41,11 +53,9 @@ section {
 .content-holder {
     max-width: 1000px;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 60px;
 }
-
-
 
 a {
     text-decoration: none;
@@ -53,7 +63,7 @@ a {
 }
 
 .card-link {
-    color: black;
+    color: #212529;
     padding: 5px 10px 3px 10px;
     transition: 0.1s;
     margin: 0 0 10px
@@ -71,7 +81,8 @@ a {
 
 .card {
     border: 0px;
-    border-radius: 0;
+    border-radius: 2px;
+    background-color: transparent;
 }
 
 .card-img-top {
@@ -84,16 +95,63 @@ a {
 }
 
 i {
-    color: white;
-}
-
-.carousel-indicators {
-    text-align: right;
-    float: right;
-    right: 2% !important;
-    left: inherit;
+    background-color: #f8f9fa;
+    color: #212529;
+    margin: 0 8px 0;
 }
 
 .d-block {
     margin: auto;
+    border: 1px solid #212529;
 }
+
+footer {
+    position: fixed;
+    top: 4px;
+    left: 10px;
+    right: 10px;
+    height: auto;
+}
+
+.text-start {
+    margin: 0 0 10px;
+}
+
+.text-end {
+    margin: 0 0 10px;
+}
+
+.text-center {
+    color: 	#424242;
+    border: 2px solid #424242;
+    transition: 0.1s;
+    border-radius: 2px;
+}
+
+.text-center:hover {
+    background-color: 	#424242;
+    color:#f8f9fa;
+}
+
+/* Scrollbar style for Firefox */
+* {
+    scrollbar-color: #f8f9fa #212529;
+    scrollbar-width: thin;
+  }
+  
+  /* Scrollbar style for Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width:3px;
+    visibility: hidden;
+  }
+  
+  *::-webkit-scrollbar-track {
+    visibility:visible;
+    background-color: #212529;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #FF7070;
+    width:2px;
+    height:40px;
+  }
