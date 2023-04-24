@@ -123,15 +123,35 @@ footer {
 
 .text-center {
     color: 	#424242;
-    border: 2px solid #424242;
+    border: 1px solid #BCCCBA;
     transition: 0.1s;
     border-radius: 2px;
+}
+
+.rankyour-link {
+    background-color: #DF4759;
+    color: #f8f9fa;
+}
+
+.rps-link {
+    background-color: darkcyan;
+    color: #f8f9fa;
+}
+.wordpuzzle-link {
+    background-color: #DF4759;
+    color: #f8f9fa;
+}
+.itachi-link {
+    background-color: #6A5C73;
+    color: #f8f9fa;
 }
 
 .text-center:hover {
     background-color: 	#424242;
     color:#f8f9fa;
 }
+
+
 
 /* Scrollbar style for Firefox */
 * {
